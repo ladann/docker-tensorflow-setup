@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+ ml:
+  image: gcr.io/tensorflow/tensorflow
+  container_name: ml
+  build: .
+  volumes:
+   - .:/notebooks/my_folder
+  ports:
+   - "8888:8888"
+
