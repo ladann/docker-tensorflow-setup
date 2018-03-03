@@ -1,5 +1,5 @@
 ### docker-tensorflow-setup
-Create a folder at your local host. Inside the directory run the following commands: <br/>
+Download this repo. Inside its directory run the following commands: <br/>
 
  <code>docker-compose up </code>
  
